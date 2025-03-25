@@ -260,7 +260,7 @@ ru:
 
         Have a great day!
       send:
-        one: 'Send invitation'
+        one: 'Отправлено приглашение'
         few: 'Send %{count} invitations'
         many: 'Send %{count} invitations'
         other: 'Send %{count} invitations'
