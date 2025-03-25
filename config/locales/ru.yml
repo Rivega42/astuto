@@ -242,8 +242,8 @@ ru:
       show_post_status_filter: 'Show status filter'
       embed_help: 'You can embed the roadmap in your website by copying the code above.'
     invitations:
-      new_invitations_title: 'New invitations'
-      past_invitations_title: 'Invitations'
+      new_invitations_title: 'Новые приглашения'
+      past_invitations_title: 'Приглашения'
       to: 'Send invitations to'
       to_help: 'Email addresses of people you want to invite, separated by commas.'
       subject: 'Email subject'
