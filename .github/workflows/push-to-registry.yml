@@ -33,5 +33,5 @@ jobs:
             ENVIRONMENT=production
           push: true
           tags: |
-            rivega42/astuto:${{ github.sha }}
-            rivega42/astuto:${{ github.ref_type == 'tag' && github.ref_name || 'latest'}}
+            rivega42/feedback:${{ github.sha }}
+            rivega42/feedback:${{ github.ref_type == 'tag' && github.ref_name || 'latest'}}
