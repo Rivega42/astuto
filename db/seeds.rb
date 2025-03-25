@@ -1,6 +1,6 @@
 # Create tenant
 tenant = Tenant.create(
-  site_name: 'Default Site Name',
+  site_name: 'Rescrub- функции, roadmap',
   subdomain: 'default',
   status: 'active'
 )
