@@ -20,11 +20,11 @@ ru:
         new_password_confirmation: 'Подтверждение нового пароля'
         current_password: 'Текущий пароль'
         notifications_enabled: 'Уведомления включены'
-        notifications_enabled_help: "если отключено, вы не получите никаких уведомлений"
+        notifications_enabled_help: 'если отключено, вы не получите никаких уведомлений'
         waiting_confirmation: 'Ожидаем подтверждения %{email}'
         no_password_set: 'Вы должны установить пароль, чтобы обновить профиль'
         set_password: 'Установить пароль'
-        password_leave_blank_help: "Оставьте пустым, если вы не хотите менять свой пароль"
+        password_leave_blank_help: 'Оставьте пустым, если вы не хотите менять свой пароль'
         current_password_required_help: 'Нам нужен ваш текущий пароль, чтобы подтвердить изменения'
         remember_me: 'Запомнить'
         log_in: 'Войти'
@@ -35,21 +35,21 @@ ru:
         update_profile: 'Обновить профиль'
         cancel_account: 'Закрыть учетную запись'
         forgot_password: 'Забыли пароль?'
-        confirmation_instructions_not_received: "Не получили подтверждение?"
-        unlock_instructions_not_received: "Не получили инструкции по разблокировке?"
+        confirmation_instructions_not_received: 'Не получили подтверждение?'
+        unlock_instructions_not_received: 'Не получили инструкции по разблокировке?'
         send_reset_password_instructions: 'Отправьте мне инструкции по сбросу пароля'
         resend_confirmation_instructions: 'Отправить подтверждение инструкции'
         resend_unlock_instructions: 'Отправить письмо для разблокирования'
         change_password: 'Изменить пароль'
         password_help: 'минимальное количство знаков %{count} '
-        email_registration_not_allowed: 'Email registration not allowed'
+        email_registration_not_allowed: 'Регистрация по электронной почте не допускается'
     comments_number:
       one: '1 комментарий'
       few: '%{count} комментариев'
       many: '%{count} комментариев'
       other: '%{count} комментариев'
     no_status: 'Нет статуса'
-    select_no_options_available: 'No options available'
+    select_no_options_available: 'Нет доступных вариантов'
     select_placeholder: 'Select...'
     loading: 'Загрузка...'
     confirmation: 'Вы уверены?'
@@ -166,8 +166,8 @@ ru:
     action_box:
       title: 'Действия'
       follow_button: 'Подписаться на пост'
-      following_description: "вы получаете уведомления о новых обновлениях на этот пост"
-      not_following_description: "Вы не подписаны на уведомления об активности в этом посте."
+      following_description: 'вы получаете уведомления о новых обновлениях на этот пост'
+      not_following_description: 'Вы не подписаны на уведомления об активности в этом посте.'
     comments:
       title: 'Активность'
       post_update_badge: 'Обновление'
@@ -198,9 +198,9 @@ ru:
       brand_setting_name: 'Только название'
       brand_setting_logo: 'Только логотип'
       brand_setting_none: 'Нет'
-      use_browser_locale_help: "If you enable this setting, the feedback space will be displayed in the user's browser preferred language. If the language is not available, the default language will be used."
-      subtitle_privacy: 'Privacy'
-      is_private_help: 'If you enable this setting, only logged in users will be able to see the content of the feedback space.'
+      use_browser_locale_help: 'Если включить эту настройку, область обратной связи будет отображаться на предпочитаемом языке браузера пользователя. Если язык недоступен, будет использоваться язык по умолчанию.'
+      subtitle_privacy: 'Конфиденциальность'
+      is_private_help: 'Если вы включите этот параметр, только вошедшие в систему пользователи смогут видеть содержимое области обратной связи.'
       subtitle_moderation: 'Модерация'
       allow_anonymous_feedback_help: 'Незарегистрированные пользователи смогут оставлять отзывы.'
       feedback_approval_policy_anonymous_require_approval: 'Требовать одобрения только для анонимных отзывов'
@@ -210,7 +210,7 @@ ru:
       subtitle_header: 'Заголовок'
       logo_links_to_root_page: 'Root page'
       logo_links_to_custom_url: 'Custom URL'
-      logo_links_to_nothing: 'Nothing'
+      logo_links_to_nothing: 'Ничего'
       collapse_boards_in_header_no_collapse: 'Никогда'
       collapse_boards_in_header_always_collapse: 'Всегда'
       subtitle_visibility: 'Видимость'
@@ -218,7 +218,7 @@ ru:
       custom_domain_learn_more: 'Узнайте, как настроить пользовательский домен'
       show_vote_count_help: 'При включении этой настройки, пользователи смогут видеть количество голосов. Это может стимулировать пользователей голосовать за уже популярные записи, приводя к эффекту снежного кома (эффект накопления и усиления).'
       show_vote_button_in_board_help: 'Если включить эту опцию, пользователи смогут голосовать за сообщения со страницы форума. Это может стимулировать пользователей голосовать за больше записей, что приведет к большему количеству голосов, но менее значимому результату.'
-      hide_unused_statuses_in_filter_by_status_help: 'If you enable this setting, only statuses that are assigned to at least one post in that board will be shown in the filter by status sidebar filter.'
+      hide_unused_statuses_in_filter_by_status_help: 'Если вы включите этот параметр, в фильтре по статусу боковой панели будут отображаться только статусы, назначенные хотя бы одному сообщению на этой доске.'
     boards:
       title: 'Доски'
       empty: 'Доски отсутствуют. Создайте доску!'
@@ -239,55 +239,54 @@ ru:
       empty: 'Дорожная карта пуста.'
       help: 'Вы можете добавить статусы к дорожной карте, перетаскивая их из раздела ниже. Если вы хотите создать новый статус или изменить его порядок, перейдите в Настройки сайта > Статусы.'
       show_board_filter: 'Показать фильтры'
-      show_post_status_filter: 'Show status filter'
-      embed_help: 'You can embed the roadmap in your website by copying the code above.'
+      show_post_status_filter: 'Показать фильтр статуса'
+      embed_help: 'Вы можете встроить дорожную карту на свой сайт, скопировав код выше.'
     invitations:
       new_invitations_title: 'Новые приглашения'
       past_invitations_title: 'Приглашения'
-      to: 'Send invitations to'
-      to_help: 'Email addresses of people you want to invite, separated by commas.'
+      to: 'Отправьте приглашения на'
+      to_help: 'Адреса электронной почты людей, которых вы хотите пригласить, разделенные запятыми.'
       subject: 'Тема письма'
-      subject_default: 'We value your feedback! Join us in shaping %{name}!'
-      body: 'Email body'
+      subject_default: 'Мы ценим ваши отзывы! Присоединяйтесь к нам в формировании %{name}!'
+      body: 'Тело письма'
       body_default: |
-        Hello!
+        Здравствуйте!
 
-        We truly appreciate your experience with %{name} and would love to hear your feedback. Your insights help us improve and continue delivering the best possible service.
+        Мы действительно ценим ваш опыт работы с %{name} и хотели бы услышать ваши отзывы. Ваши идеи помогают нам совершенствоваться и продолжать предоставлять наилучший сервис.
 
-        Click the link below to share your thoughts and make your voice heard:
-
+        Нажмите на ссылку ниже, чтобы поделиться своими мыслями и сделать так, чтобы ваш голос был услышан:
         %link%
 
-        Have a great day!
+        Хорошего дня!
       send:
         one: 'Отправлено приглашение'
-        few: 'Send %{count} invitations'
-        many: 'Send %{count} invitations'
-        other: 'Send %{count} invitations'
-      submit_success: 'Invitations sent!'
-      submit_failure: 'An error occurred while sending invitations'
-      invalid_emails: 'Invalid email addresses: %{emails}'
-      too_many_emails: 'You can only send %{count} invitations at a time.'
-      invitation_link_not_found: 'You must use the %link% placeholder in the email body'
-      test_invitation_button: 'Test send invitation'
-      test_invitation_help: 'This will send a test invitation email to %{email}'
+        few: 'Отправить %{count} приглашений'
+        many: 'Отправить %{count} приглашений'
+        other: 'Отправить %{count} приглашений'
+      submit_success: 'Приглашения отправлены!'
+      submit_failure: 'Произошла ошибка при отправке приглашений'
+      invalid_emails: 'Недействительные адреса электронной почты: %{emails}'
+      too_many_emails: 'Вы можете отправить не более %{count} приглашений за один раз.'
+      invitation_link_not_found: 'В тексте письма необходимо использовать заполнитель %link%.'
+      test_invitation_button: 'Тестовая отправка приглашения'
+      test_invitation_help: 'Это отправит тестовое приглашение по электронной почте на адрес %{email}'
       test_invitation_success: 'A test invitation email has been sent to %{email}'
-      all: 'All'
-      pending: 'Pending'
+      all: 'Все'
+      pending: 'В ожидании'
       accepted: 'Accepted'
-      sent_at: 'Sent %{when}'
-      accepted_at: 'Accepted %{when}'
+      sent_at: 'Отправлено %{when}'
+      accepted_at: 'Принято %{when}'
     appearance:
       title: 'Внешний вид'
       learn_more: 'Узнайте, как настроить внешний вид'
     authentication:
       title: 'Аутентификация'
       learn_more: 'Узнайте, как настроить пользовательские провайдеры OAuth'
-      email_registration_subtitle: 'Email registration'
-      email_registration_policy_all: 'Anyone can register with email'
-      email_registration_policy_none: 'No one can register with email'
-      email_registration_policy_custom: 'Only users with certain email domains can register with email'
-      allowed_email_domains_help: 'Separate domains with commas. Example: "gmail.com,yahoo.com,hotmail.com". Leave blank to allow any domain.'
+      email_registration_subtitle: 'Регистрация по электронной почте'
+      email_registration_policy_all: 'Любой желающий может зарегистрироваться по электронной почте'
+      email_registration_policy_none: 'Никто не может зарегистрироваться по электронной почте'
+      email_registration_policy_custom: 'Только пользователи с определенными доменами электронной почты могут зарегистрироваться с помощью электронной почты.'
+      allowed_email_domains_help: 'Разделяйте домены запятыми. Пример: "gmail.com,yahoo.com,hotmail.com". Оставьте пустым, чтобы разрешить любой домен.'
       oauth_subtitle: 'Поставщики OAuth'
       default_oauth: 'Поставщик OAuth по-умолчанию'
       copy_url: 'Копировать ссылку'
@@ -317,10 +316,10 @@ ru:
       title: 'Пользователи'
       block: 'Заблокировать'
       unblock: 'Разблокировать'
-      block_confirmation: "%{name} не сможет войти в систему, пока ее не разблокируют. Вы уверены?"
-      unblock_confirmation: "%{name} не сможет войти в систему и оставить отзыв. Вы уверены?"
-      role_to_moderator_confirmation: "%{name} сможет управлять обращениями и пользователями. Действуйте только в том случае, если вы доверяете этому человеку. Вы уверены?"
-      role_to_admin_confirmation: "%{name} сможете управлять досками, обращениями, статусами, пользователями и многим другим. Действуйте только в том случае, если вы доверяете этому человеку. Вы уверены?"
+      block_confirmation: '%{name} не сможет войти в систему, пока ее не разблокируют. Вы уверены?'
+      unblock_confirmation: '%{name} не сможет войти в систему и оставить отзыв. Вы уверены?'
+      role_to_moderator_confirmation: '%{name} сможет управлять обращениями и пользователями. Действуйте только в том случае, если вы доверяете этому человеку. Вы уверены?'
+      role_to_admin_confirmation: '%{name} сможете управлять досками, обращениями, статусами, пользователями и многим другим. Действуйте только в том случае, если вы доверяете этому человеку. Вы уверены?'
       role_user: 'Пользователь'
       role_moderator: 'Модератор'
       role_admin: 'Администратор'
